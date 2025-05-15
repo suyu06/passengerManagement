@@ -1,0 +1,137 @@
+body {
+    box-sizing: border-box;
+    margin: auto;
+    padding: 0;
+    font-family: 'PT Sans', sans-serif;
+    text-align: center;
+    background: url('2.jpg') repeat;
+    background-size: 100% auto;
+    color: white;
+}
+
+table {
+    border-collapse: collapse;
+    border-bottom: 1px solid gray;
+    font-family: Tahoma, Verdana, Segoe, sans-serif;
+    width: 100%;
+    margin: auto;
+}
+
+th {
+    border-bottom: 1px solid gray;
+    background: none repeat scroll 0 0 #ba1f1d;
+    color: #FFFFFF;
+}
+
+tr {
+    border-top: 1px solid gray;
+    text-align: center;
+}
+td{
+    padding: 18px 18px;
+    text-align: left;
+}
+tr:nth-child(even) {
+    background: #FFFFFF;
+    color: #181437
+}
+
+tr:nth-child(odd) {
+    background: #181437;
+    color: #FFF
+}
+
+#wrapper {
+    width: 99%;
+    margin-top: 0px;
+}
+
+#header {
+    width: 100%;
+    background: #ba1f1d;
+    margin: auto;
+    padding: 15px 0px 15px 15px;
+}
+
+#header h2 {
+    width: 100%;
+    margin: auto;
+    color: #FFFFFF;
+}
+
+#container {
+    width: 100%;
+    margin: auto;
+}
+
+#container h3 {
+    color: #000;
+}
+
+#container #content {
+    margin-top: 20px;
+}
+
+.form-container {
+    width: 90%;
+    height: 50%;
+    background-color: white;
+    opacity: 0.9;
+    margin: auto;
+    margin-top: 10%;
+    text-align: center;
+    border-radius: 10px;
+    box-shadow: 10px 15px 15px #181437;
+    padding: 50px 50px;
+    color: #181437;
+}
+
+a {
+    display: block;
+    color: white;
+    font-size: 18px;
+    padding-bottom: 5px;
+}
+.showList{
+    color:#181437;
+}
+tr:nth-child(even) > td > a {
+    color: #181437
+}
+
+.inputForm >.searchBtn{
+    border: 1px solid #666;
+    border-radius: 5px;
+    padding: 4px;
+    font-size: 15px;
+    font-weight: bold;
+    width: 120px;
+    padding: 5px 10px;
+    color:#FFF;
+    margin-bottom: 25px;
+    margin-top:25px;
+    background: #181437;
+    cursor: pointer;
+}
+
+.inputForm{
+    margin-top:20px;
+    margin-left: 0px;
+}
+.inputBox{
+    margin-top:10px;
+    margin-bottom: 10px;
+
+}
+
+.inputBox input {
+    width: 350px;
+    border: 1px solid #666;
+    border-radius: 5px;
+    padding: 4px;
+    font-size: 16px;
+    margin:auto;
+}
+.backToSearch{
+    color: #181437
+}

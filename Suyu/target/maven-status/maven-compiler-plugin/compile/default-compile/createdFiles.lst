@@ -1,0 +1,9 @@
+com\jac\suyu\dao\PassengerDAO.class
+com\jac\suyu\dao\PassengerDAOImpl.class
+com\jac\suyu\service\PassengerServiceImpl.class
+com\jac\suyu\entity\Flight.class
+com\jac\suyu\controller\PassengerController.class
+com\jac\suyu\entity\Passenger.class
+com\jac\suyu\entity\Payment.class
+com\jac\suyu\entity\Address.class
+com\jac\suyu\service\PassengerService.class
